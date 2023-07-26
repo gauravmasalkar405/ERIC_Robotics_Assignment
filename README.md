@@ -40,7 +40,7 @@ npm run dev
 
 ### BackEnd
 
-Navigate to the client folder in your terminal using the cd command:
+Navigate to the server folder in your terminal using the cd command:
 
 cd server
 
