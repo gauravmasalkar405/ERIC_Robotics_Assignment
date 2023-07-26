@@ -14,8 +14,6 @@ export const protect = asyncHandler(async (req, res, next) => {
       // verify token
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-      console.log(decoded);
-
       // get users details excluding password
       req.user = users.find((user) => user.id === decoded.id);
       next();
